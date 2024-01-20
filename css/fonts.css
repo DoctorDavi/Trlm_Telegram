@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'GL';
+  font-weight: 300;
+  src: url(../fonts/Gothampro/gothampro_light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GR';
+  font-weight: 400;
+  src: url(../fonts/Gothampro/gothampro.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GB';
+  font-weight: 700;
+  src: url(../fonts/Gothampro/gothampro_bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GBL';
+  font-weight: 900;
+  src: url(../fonts/Gothampro/gothampro_black.ttf) format('truetype');
+}

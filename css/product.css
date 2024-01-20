@@ -1,0 +1,231 @@
+.product {
+  margin: 40px 50px 28px;
+  background: url(../img/product-bg.png) center/cover no-repeat;
+}
+
+.product__wrap {
+  padding: 0 15px 28px;
+  position: relative;
+}
+
+.product__desc {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.product__desc-champion {
+  max-width: 310px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.product__desc-champion-img {
+  padding-bottom: 35px;
+  width: 122px;
+}
+
+.product__desc-champion-title {
+  color: var(--white);
+  font-size: 42px;
+  line-height: 49px;
+  padding-bottom: 30px;
+}
+
+.product__desc-champion-more {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.product__desc-champion-more-text {
+  font-family: "GR";
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.product__desc-champion-more:hover .product__desc-champion-more-text {
+  color: var(--blue);
+}
+
+.product__desc-champion-more-span {
+  color: var(--blue);
+  font-size: 39px;
+}
+
+.product__desc-energy {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  align-items: flex-end;
+}
+
+.product__desc-energy-arrows {
+  display: flex;
+}
+
+.product__desc-energy-arrows-left {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.product__desc-energy-arrows-left-span i {
+  font-size: 34px;
+  color: var(--white);
+  opacity: 0.4;
+}
+
+.product__desc-energy-arrows-right {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.product__desc-energy-arrows-right-span i {
+  font-size: 34px;
+  color: var(--white);
+}
+
+.product__desc-energy-title {
+  color: var(--white);
+  font-family: "GL";
+  font-size: 75px;
+}
+
+.product__cards {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.product__cards-card {
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  gap: 9px;
+  padding: 32px 20px 32px 16px;
+  background: var(--white);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+.product__cards-card-num {
+  color: rgba(34, 34, 34, 0.2);
+  text-align: center;
+  font-family: "GBL";
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.product__cards-card-desc {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.product__cards-card-desc-title {
+  font-size: 24px;
+  line-height: 24px;
+  /* margin-bottom: 8px; */
+}
+
+.product__cards-card-desc-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__cards-card-desc-info-text {
+  font-family: "GR";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product__cards-card-desc-info-phone {
+  font-family: "GR";
+  font-size: 24px;
+  line-height: 40px;
+  /* margin-bottom: 8px; */
+}
+
+.product__cards-card-desc-call {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid var(--green);
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.product__cards-card:hover .product__cards-card-desc-call {
+  background: var(--green);
+}
+
+.product__cards-card-desc-call-text {
+  color: var(--green);
+  line-height: 23px;
+  transition: 0.3s;
+}
+
+.product__cards-card:hover .product__cards-card-desc-call-text {
+  color: var(--white);
+}
+
+.product__cards-card-desc-text {
+  font-family: "GR";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product__cards-card-desc-text2 {
+  color: var(--blue);
+  line-height: 23px;
+  border-radius: 4px;
+  border: 2px solid #1c69d4;
+  text-align: center;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.product__cards-card:hover .product__cards-card-desc-text2 {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.product__img {
+  position: absolute;
+  top: 15px;
+  left: 39%;
+}
+
+@media screen and (max-width: 1600px) {
+  .product__wrap {
+    padding: 0 30px 28px;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  .product {
+    margin: 40px 30px 28px;
+  }
+
+  .product__cards-card-num {
+    display: none;
+  }
+}

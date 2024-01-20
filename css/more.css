@@ -1,0 +1,127 @@
+.more__wrap {
+  display: flex;
+  gap: 30px;
+  padding: 0 15px 56px;
+}
+
+.more__left {
+  max-width: 460px;
+  width: 100%;
+  background: url(../img/more1.png) center/cover no-repeat;
+  padding: 38px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 179px;
+  height: 356px;
+}
+
+.more__left-text {
+  max-width: 129px;
+  width: 100%;
+  color: var(--white);
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 179px;
+}
+
+.more__left-desc-link {
+  color: var(--white);
+  line-height: 24px;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.3s;
+}
+
+.more__left-desc-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--white);
+  transition: 0.3s;
+}
+
+.more__left-desc-link:hover::after {
+  width: 100%;
+}
+
+.more__right {
+  max-width: 950px;
+  width: 100%;
+  padding: 35px 40px 38px;
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/more2.png) center/cover no-repeat;
+  align-items: flex-start;
+  height: 356px;
+}
+
+.more__right-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.more__right-desc-text {
+  color: var(--white);
+  font-family: "GR";
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 66px;
+}
+
+.more__right-desc-title {
+  max-width: 205px;
+  width: 100%;
+  color: var(--white);
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 57px;
+}
+
+.more__right-desc-link {
+  color: var(--white);
+  line-height: 24px;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.3s;
+}
+
+.more__right-desc-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--white);
+  transition: 0.3s;
+}
+
+.more__right-desc-link:hover::after {
+  width: 100%;
+}
+
+.more__right-price {
+  margin-top: 5px;
+  padding: 15px;
+  background: var(--orange);
+  color: var(--white);
+  font-feature-settings: "liga" off;
+  font-family: 'GR';
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1600px) {
+  .more__wrap {
+    padding: 0 30px 56px;
+  }
+}
